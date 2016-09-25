@@ -1,5 +1,7 @@
-function printMsg() {
-    randnum = randInt(100);
+function printNum() {
+    var max = Number($("#max").val());
+    alert(max);
+    randnum = randInt(max);
     alert(randnum);
 }
 
