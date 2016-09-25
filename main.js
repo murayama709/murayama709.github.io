@@ -1,8 +1,9 @@
 function printNum() {
     var max = Number($("#max").val());
-    alert(max);
+    //alert(max);
     randnum = randInt(max);
-    alert(randnum);
+    $("#rand").text() = randnum;
+    //alert(randnum);
 }
 
 function randInt(max) {
