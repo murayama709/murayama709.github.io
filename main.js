@@ -1,7 +1,7 @@
 function printNum() {
     var max = Number($("#max").val());
     randnum = randInt(max);
-    $("#disp").text(randnum);
+    $(".odometer").text(randnum);
 }
 
 function randInt(max) {
