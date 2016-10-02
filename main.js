@@ -1,5 +1,5 @@
 setTimeout(function(){
-    odometer.innerHTML = 457;
+$(".odometer").text(111);
 }, 1000);
 
 function printNum() {
