@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="odometer-theme-car.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
   <script src="main.js"></script>
   <script src="odometer.js"></script>
 </head>
 <body>
-  <p><label>max：<input type="number" id="max" size="20"></label></p>
-  <div id="disp" class="odometer">
+  <p><label>max：<input type="number" id="max" size="20" value="250"></label></p>
+  <div id="disp" class="odometer button">
     0
   </div>
   <input type="button" value="Start" onclick="printNum()">
