@@ -1,15 +1,8 @@
+setTimeout(function(){
+    odometer.innerHTML = 457;
+}, 1000);
+
 function printNum() {
-    var el = document.querySelector('.test');
-
-od = new Odometer({
-  el: el,
-  value: 333555,
-
-  // Any option (other than auto and selector) can be passed in here
-  format: 'd'
-});
-
-od.update(555)
     var max = Number($("#max").val());
     randnum = randInt(max);
     $(".odometer").text(randnum);
