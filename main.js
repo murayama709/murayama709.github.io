@@ -14,7 +14,7 @@ jQuery(function($){
  
   //timerid = setTimeout(function(){
   //  odometer.update(100);
-  }//,1000);
+  //},1000);
 
 });
 
