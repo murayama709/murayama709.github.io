@@ -524,7 +524,8 @@
         return;
       }
       this.bindTransitionEnd();
-      digitCount = this.getDigitCount(oldValue, newValue);
+      //digitCount = this.getDigitCount(oldValue, newValue);
+      digitCount = 3;
       digits = [];
       boosted = 0;
       for (i = _i = 0; 0 <= digitCount ? _i < digitCount : _i > digitCount; i = 0 <= digitCount ? ++_i : --_i) {
