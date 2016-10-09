@@ -529,8 +529,10 @@
       digits = [];
       boosted = 0;
       for (i = _i = 0; 0 <= digitCount ? _i < digitCount : _i > digitCount; i = 0 <= digitCount ? ++_i : --_i) {
-        start = truncate(oldValue / Math.pow(10, digitCount - i - 1));
-        end = truncate(newValue / Math.pow(10, digitCount - i - 1));
+        //start = truncate(oldValue / Math.pow(10, digitCount - i - 1));
+        //end = truncate(newValue / Math.pow(10, digitCount - i - 1));
+        start = 200;
+        end = 100;
         dist = end - start;
         if (Math.abs(dist) > this.MAX_VALUES) {
           frames = [];
