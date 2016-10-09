@@ -6,7 +6,7 @@ jQuery(function($){
   odometer = new Odometer({
     el: $('.roulette')[0],
     value:0,
-    duration: 1000,
+    duration: 5000,
     theme: 'car',
     format: '(,ddd).dd',
   });
