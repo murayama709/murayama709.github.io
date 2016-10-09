@@ -337,7 +337,12 @@
       } else {
         wholePart = !this.format.precision || !fractionalPart(value) || false;
         //_ref1 = value.toString().split('').reverse();
-        _ref1 = "048".split('').reverse();
+        //_ref1 = "048".split('').reverse();
+        valueString = value.toString();
+        if (valueString.length == 2) {
+          valueString = "0" + valueString;
+        }
+        _ref1 = valueString.split('').reverse();
         for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
           digit = _ref1[_j];
           if (digit === '.') {
