@@ -339,7 +339,9 @@
         //_ref1 = value.toString().split('').reverse();
         //_ref1 = "048".split('').reverse();
         valueString = value.toString();
-        if (valueString.length == 2) {
+        if (valueString.length == 1) {
+          valueString = "00" + valueString;
+        } else if (valueString.length == 2) {
           valueString = "0" + valueString;
         }
         _ref1 = valueString.split('').reverse();
