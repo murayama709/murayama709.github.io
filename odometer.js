@@ -321,8 +321,7 @@
       var digit, valueDigit, valueString, wholePart, _i, _j, _len, _len1, _ref, _ref1;
       this.digits = [];
       if (this.options.formatFunction) {
-        //valueString = this.options.formatFunction(value);
-        valueString = "46";
+        valueString = this.options.formatFunction(value);
         _ref = valueString.split('').reverse();
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           valueDigit = _ref[_i];
@@ -337,7 +336,8 @@
         }
       } else {
         wholePart = !this.format.precision || !fractionalPart(value) || false;
-        _ref1 = value.toString().split('').reverse();
+        //_ref1 = value.toString().split('').reverse();
+        _ref1 = "048".split('').reverse();
         for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
           digit = _ref1[_j];
           if (digit === '.') {
