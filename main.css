@@ -1,6 +1,7 @@
-div { 
+.odometer { 
   font-size :440px;
-  margin-top : 50px;
-  margin-bottom : 100px;
 }
 
+.space {
+  margin-bottom : 50px;
+}
