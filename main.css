@@ -2,6 +2,10 @@
   font-size :440px;
 }
 
-.space {
+.space50 {
   margin-bottom : 50px;
+}
+
+.space100 {
+  margin-bottom : 100px;
 }
