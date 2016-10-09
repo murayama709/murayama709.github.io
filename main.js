@@ -1,7 +1,26 @@
+jQuery(function($){
+  window.odometerOptions = {
+    auto: false
+  };
+
+  odometer = new Odometer({
+    el: $('.roulette')[0],
+    value:0,
+    theme: 'car',
+    format: 'd',
+  });
+  odometer.render();
+ 
+  timerid = setTimeout(function(){
+    odometer.update(100);
+  },1000);
+
+});
+
 function printNum() {
     var max = Number($("#max").val());
     randnum = randInt(max);
-    $(".hoge").text(randnum);
+    $(".roulette").text(randnum);
 }
 
 function randInt(max) {

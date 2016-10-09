@@ -7,25 +7,6 @@
   <!--<script src="odometer.js"></script>-->
   <script src="odometer.min.js"></script>
   <script src="main.js"></script>
-  <script>
-jQuery(function($){
-  window.odometerOptions = {
-    auto: false
-  };
- 
-  odometer = new Odometer({
-    el: $('.hoge')[0],
-    value:0,
-    theme: 'car',
-    format: 'd',
-  });
-  odometer.render();
- 
-  timerid = setTimeout(function(){
-    odometer.update(100);
-  },1000);
- 
-});
 </script>
 </head>
 <body>
