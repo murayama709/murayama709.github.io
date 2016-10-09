@@ -12,9 +12,9 @@ jQuery(function($){
   });
   odometer.render();
  
-  //timerid = setTimeout(function(){
-  //  odometer.update(100);
-  //},1000);
+  timerid = setTimeout(function(){
+    odometer.update(100);
+  },5000);
 
 });
 
