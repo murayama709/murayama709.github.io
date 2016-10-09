@@ -321,7 +321,8 @@
       var digit, valueDigit, valueString, wholePart, _i, _j, _len, _len1, _ref, _ref1;
       this.digits = [];
       if (this.options.formatFunction) {
-        valueString = this.options.formatFunction(value);
+        //valueString = this.options.formatFunction(value);
+        valueString = "46";
         _ref = valueString.split('').reverse();
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           valueDigit = _ref[_i];
